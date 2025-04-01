@@ -1,0 +1,8 @@
+{
+  "commandName": "跳转到首次引入位置",
+  "fileNotExist": "文件路径不存在: {0}",
+  "originLineNotFound": "未找到该文件的原始#line预处理指令",
+  "pathResolveFailed": "路径解析失败: {0} ({1})",
+  "noLineDirectiveFound": "未找到#line预处理指令",
+  "openTargetFile": "打开目标文件"
+}

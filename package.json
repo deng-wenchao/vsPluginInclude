@@ -1,0 +1,40 @@
+{
+  "name": "line-directive-navigator",
+  "publisher": "dwc",
+  "icon": "icon.jpeg",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+
+  "main": "./extension.js",
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "contributes": {
+    "commands": [
+      {
+        "command": "extension.navigateToOrigin",
+        "title": "%commandName%"
+      },
+      {
+        "command": "extension.openTargetFile",
+        "title": "%openTargetFile%"
+      }
+    ],
+    "menus": {
+      "editor/context": [
+        {
+          "command": "extension.navigateToOrigin",
+          "group": "navigation",
+          "when": "resourceExtname == .i"
+        },
+        {
+          "command": "extension.openTargetFile",
+          "group": "navigation",
+          "when": "resourceExtname == .i"
+        }
+      ]
+    }
+  }
+}

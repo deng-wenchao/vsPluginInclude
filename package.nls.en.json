@@ -1,0 +1,7 @@
+{
+  "commandName": "Navigate to Origin Location",
+  "fileNotExist": "File path does not exist: {0}",
+  "originLineNotFound": "Original #line directive not found for this file",
+  "pathResolveFailed": "Path resolution failed: {0} ({1})",
+  "noLineDirectiveFound": "No #line directive found"
+}
